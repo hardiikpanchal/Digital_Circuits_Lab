@@ -1,0 +1,74 @@
+# Reading pref.tcl
+# do DUT_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying F:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini
+# 
+# vcom -93 -work work {E:/Third Semester/EE 214/Endsem/timer_controller.vhdl}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:07:32 on Oct 27,2021
+# vcom -reportprogress 300 -93 -work work E:/Third Semester/EE 214/Endsem/timer_controller.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity timer_controller
+# -- Compiling architecture DutWrap of timer_controller
+# End time: 15:07:33 on Oct 27,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {E:/Third Semester/EE 214/Endsem/timer_ckt.vhdl}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:07:33 on Oct 27,2021
+# vcom -reportprogress 300 -93 -work work E:/Third Semester/EE 214/Endsem/timer_ckt.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity timer_ckt
+# -- Compiling architecture timer of timer_ckt
+# End time: 15:07:33 on Oct 27,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {E:/Third Semester/EE 214/Endsem/fsm_lcd.vhdl}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:07:33 on Oct 27,2021
+# vcom -reportprogress 300 -93 -work work E:/Third Semester/EE 214/Endsem/fsm_lcd.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity fsm
+# -- Compiling architecture BHV of fsm
+# End time: 15:07:33 on Oct 27,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vcom -93 -work work {E:/Third Semester/EE 214/Endsem/timer_controller_tb.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:07:34 on Oct 27,2021
+# vcom -reportprogress 300 -93 -work work E:/Third Semester/EE 214/Endsem/timer_controller_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity timer_controller_tb
+# -- Compiling architecture tb of timer_controller_tb
+# End time: 15:07:34 on Oct 27,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L maxv -L rtl_work -L work -voptargs="+acc"  timer_controller_tb
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L maxv -L rtl_work -L work -voptargs=""+acc"" timer_controller_tb 
+# Start time: 15:07:34 on Oct 27,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.timer_controller_tb(tb)
+# Loading work.timer_controller(dutwrap)
+# ** Fatal: (vsim-3817) Port "inp_switch" of entity "timer_controller" is not in the component being instantiated.
+#    Time: 0 ps  Iteration: 0  Instance: /timer_controller_tb/dut_instance File: E:/Third Semester/EE 214/Endsem/timer_controller.vhdl Line: 5
+# FATAL ERROR while loading design
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./DUT_run_msim_rtl_vhdl.do PAUSED at line 14
+# End time: 15:07:48 on Oct 27,2021, Elapsed time: 0:00:14
+# Errors: 1, Warnings: 0
