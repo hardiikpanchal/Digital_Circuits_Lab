@@ -1,0 +1,530 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/Third Semester/EE 214/Labs/31 August/8 bit adder/simulation/modelsim
+Eadder_8bit
+Z1 w1630403420
+Z2 DEx4 work 10 full_adder 0 22 J>TSK3V@fa0>oCX`@NTfi0
+Z3 DPx4 work 5 gates 0 22 @eB5S<QWaBmXNA4jc;3?G2
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 3
+R0
+Z6 8E:/Third Semester/EE 214/Labs/31 August/8 bit adder/adder_8bit.vhdl
+Z7 FE:/Third Semester/EE 214/Labs/31 August/8 bit adder/adder_8bit.vhdl
+l0
+L9 1
+VNd47AWh?hjVNbzA23lPoY2
+!s100 DP`S3QYVGMAl?heiNM^jX3
+Z8 OV;C;2020.1;71
+31
+Z9 !s110 1630406244
+!i10b 1
+Z10 !s108 1630406244.000000
+Z11 !s90 -reportprogress|300|-93|-work|work|E:/Third Semester/EE 214/Labs/31 August/8 bit adder/adder_8bit.vhdl|
+Z12 !s107 E:/Third Semester/EE 214/Labs/31 August/8 bit adder/adder_8bit.vhdl|
+!i113 1
+Z13 o-93 -work work
+Z14 tExplicit 1 CvgOpt 0
+Astructural
+R3
+R4
+R5
+DEx4 work 10 adder_8bit 0 22 Nd47AWh?hjVNbzA23lPoY2
+!i122 3
+l24
+L14 22
+V6GL7H39JPLz]<PfUc^QO@3
+!s100 1Dg3VdRlSYF7fP>;=c`c03
+R8
+31
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Eand_2
+Z15 w1624765260
+R4
+R5
+!i122 0
+R0
+Z16 8E:/Third Semester/EE 214/Labs/31 August/8 bit adder/Gates.vhdl
+Z17 FE:/Third Semester/EE 214/Labs/31 August/8 bit adder/Gates.vhdl
+l0
+L53 1
+VU7DI`Tzl@EfAQ?4z53E2F2
+!s100 1`nWBgISBZCVoBKm`L3TM3
+R8
+31
+R9
+!i10b 1
+R10
+Z18 !s90 -reportprogress|300|-93|-work|work|E:/Third Semester/EE 214/Labs/31 August/8 bit adder/Gates.vhdl|
+Z19 !s107 E:/Third Semester/EE 214/Labs/31 August/8 bit adder/Gates.vhdl|
+!i113 1
+R13
+R14
+Aequations
+R4
+R5
+DEx4 work 5 and_2 0 22 U7DI`Tzl@EfAQ?4z53E2F2
+!i122 0
+l58
+L57 4
+Vlhgfe[LY0eM?e_R:VHaZ:1
+!s100 6Ea@T?V>e39O6cgPlk<iS0
+R8
+31
+R9
+!i10b 1
+R10
+R18
+R19
+!i113 1
+R13
+R14
+Edut
+Z20 w1630403056
+R4
+R5
+!i122 1
+R0
+Z21 8E:/Third Semester/EE 214/Labs/31 August/8 bit adder/DUT.vhdl
+Z22 FE:/Third Semester/EE 214/Labs/31 August/8 bit adder/DUT.vhdl
+l0
+L7 1
+V>VNS><nFjmee3KQ1KH?oQ1
+!s100 ajecWhLA3Sh1z3^TA:GDz3
+R8
+31
+R9
+!i10b 1
+R10
+Z23 !s90 -reportprogress|300|-93|-work|work|E:/Third Semester/EE 214/Labs/31 August/8 bit adder/DUT.vhdl|
+Z24 !s107 E:/Third Semester/EE 214/Labs/31 August/8 bit adder/DUT.vhdl|
+!i113 1
+R13
+R14
+Adutwrap
+R4
+R5
+DEx4 work 3 dut 0 22 >VNS><nFjmee3KQ1KH?oQ1
+!i122 1
+l19
+L12 42
+V4ZIGTQSeMBKz]4^NOTe`G0
+!s100 zfEYWl8f]>Cfg_2G5SIh`1
+R8
+31
+R9
+!i10b 1
+R10
+R23
+R24
+!i113 1
+R13
+R14
+Efull_adder
+R15
+R3
+R4
+R5
+!i122 2
+R0
+Z25 8E:/Third Semester/EE 214/Labs/31 August/8 bit adder/Full_Adder.vhdl
+Z26 FE:/Third Semester/EE 214/Labs/31 August/8 bit adder/Full_Adder.vhdl
+l0
+L7 1
+VJ>TSK3V@fa0>oCX`@NTfi0
+!s100 X:XV7b@_a6eVIh2TXeXU:2
+R8
+31
+R9
+!i10b 1
+R10
+Z27 !s90 -reportprogress|300|-93|-work|work|E:/Third Semester/EE 214/Labs/31 August/8 bit adder/Full_Adder.vhdl|
+Z28 !s107 E:/Third Semester/EE 214/Labs/31 August/8 bit adder/Full_Adder.vhdl|
+!i113 1
+R13
+R14
+Astruct
+R3
+R4
+R5
+R2
+!i122 2
+l12
+L10 14
+VDb^ljfQ?OkP7b=WRDfV^z2
+!s100 VnnS6P?]2A1:]TGdaJ7;e0
+R8
+31
+R9
+!i10b 1
+R10
+R27
+R28
+!i113 1
+R13
+R14
+Pgates
+R4
+R5
+!i122 0
+R15
+R0
+R16
+R17
+l0
+L3 1
+V@eB5S<QWaBmXNA4jc;3?G2
+!s100 N@iIgLVJlGZzK36CC:zf23
+R8
+31
+R9
+!i10b 1
+R10
+R18
+R19
+!i113 1
+R13
+R14
+Ehalf_adder
+R15
+R4
+R5
+!i122 0
+R0
+R16
+R17
+l0
+L120 1
+VOAZ_4ioR^1B[UAcaA1zf51
+!s100 oLN8>k[AMhPS;D9;:Z@Pz0
+R8
+31
+R9
+!i10b 1
+R10
+R18
+R19
+!i113 1
+R13
+R14
+Aequations
+R4
+R5
+DEx4 work 10 half_adder 0 22 OAZ_4ioR^1B[UAcaA1zf51
+!i122 0
+l125
+L124 5
+VflMPld^`b]>0KKXzZhX_91
+!s100 ]f4Ql:1od=>zjRGlb:Lm:0
+R8
+31
+R9
+!i10b 1
+R10
+R18
+R19
+!i113 1
+R13
+R14
+Einverter
+R15
+R4
+R5
+!i122 0
+R0
+R16
+R17
+l0
+L41 1
+V82BXV;Uza[l3mE]`8B<HJ0
+!s100 dFc@GWJO@nF57X0IXFVfh0
+R8
+31
+R9
+!i10b 1
+R10
+R18
+R19
+!i113 1
+R13
+R14
+Aequations
+R4
+R5
+DEx4 work 8 inverter 0 22 82BXV;Uza[l3mE]`8B<HJ0
+!i122 0
+l46
+L45 4
+V4]gW5EV5;RT@9C;Pga@SA0
+!s100 [DD^:ihbY=VNQeLiKKX_R1
+R8
+31
+R9
+!i10b 1
+R10
+R18
+R19
+!i113 1
+R13
+R14
+Enand_2
+R15
+R4
+R5
+!i122 0
+R0
+R16
+R17
+l0
+L64 1
+VS^YD8?>b_]W^^dkQa>_3m2
+!s100 S;kgn2U384cOg4>1Kcdn<2
+R8
+31
+R9
+!i10b 1
+R10
+R18
+R19
+!i113 1
+R13
+R14
+Aequations
+R4
+R5
+DEx4 work 6 nand_2 0 22 S^YD8?>b_]W^^dkQa>_3m2
+!i122 0
+l69
+L68 4
+VS]`6`a7Bz3gbaB=WX@WdM2
+!s100 EBK=7IM2m_0=gIZGM@F7H1
+R8
+31
+R9
+!i10b 1
+R10
+R18
+R19
+!i113 1
+R13
+R14
+Enor_2
+R15
+R4
+R5
+!i122 0
+R0
+R16
+R17
+l0
+L86 1
+V`A=6DP8fY`aBzcQ@Hgc?S1
+!s100 hCNF9lV5T>8fg2MR^]6f^0
+R8
+31
+R9
+!i10b 1
+R10
+R18
+R19
+!i113 1
+R13
+R14
+Aequations
+R4
+R5
+DEx4 work 5 nor_2 0 22 `A=6DP8fY`aBzcQ@Hgc?S1
+!i122 0
+l91
+L90 4
+VIJ=]C?8]dETGzmXBGe8in2
+!s100 iWUJUdMb8DJi]m^=42G9F3
+R8
+31
+R9
+!i10b 1
+R10
+R18
+R19
+!i113 1
+R13
+R14
+Eor_2
+R15
+R4
+R5
+!i122 0
+R0
+R16
+R17
+l0
+L75 1
+Ve?I6M>DO0lb4QOFDA10zP2
+!s100 _]<JbSG1DCI^d;kKCeeO:3
+R8
+31
+R9
+!i10b 1
+R10
+R18
+R19
+!i113 1
+R13
+R14
+Aequations
+R4
+R5
+DEx4 work 4 or_2 0 22 e?I6M>DO0lb4QOFDA10zP2
+!i122 0
+l80
+L79 4
+V35?1APMW04D0M8BcdBhJ53
+!s100 kX9QLgDQM=e4dN7zDYk6o2
+R8
+31
+R9
+!i10b 1
+R10
+R18
+R19
+!i113 1
+R13
+R14
+Etestbench
+Z29 w1630403818
+R5
+R4
+!i122 4
+R0
+Z30 8E:/Third Semester/EE 214/Labs/31 August/8 bit adder/Testbench.vhdl
+Z31 FE:/Third Semester/EE 214/Labs/31 August/8 bit adder/Testbench.vhdl
+l0
+L7 1
+V]iKK_Z9L:G9B:i8c]3eFH0
+!s100 bWf8kl8zb90X@P1m>V^K20
+R8
+31
+R9
+!i10b 1
+R10
+Z32 !s90 -reportprogress|300|-93|-work|work|E:/Third Semester/EE 214/Labs/31 August/8 bit adder/Testbench.vhdl|
+!s107 E:/Third Semester/EE 214/Labs/31 August/8 bit adder/Testbench.vhdl|
+!i113 1
+R13
+R14
+Abehave
+R5
+R4
+DEx4 work 9 testbench 0 22 ]iKK_Z9L:G9B:i8c]3eFH0
+!i122 4
+l69
+L9 132
+Vngiffl<liG4[NzdOfYUIG0
+!s100 gUjGEmSVT<[_DlXPMdVTe0
+R8
+31
+R9
+!i10b 1
+R10
+R32
+Z33 !s107 E:/Third Semester/EE 214/Labs/31 August/8 bit adder/Testbench.vhdl|
+!i113 1
+R13
+R14
+Exnor_2
+R15
+R4
+R5
+!i122 0
+R0
+R16
+R17
+l0
+L109 1
+VLHIUEA1`23`S5JTPo4JYA2
+!s100 M7SmBC<JLShUJ=5Tb^BGR1
+R8
+31
+R9
+!i10b 1
+R10
+R18
+R19
+!i113 1
+R13
+R14
+Aequations
+R4
+R5
+DEx4 work 6 xnor_2 0 22 LHIUEA1`23`S5JTPo4JYA2
+!i122 0
+l114
+L113 4
+V]AR[iEm:1Y`=`f78Ab8?A2
+!s100 2L8]1Q4cBgn^[7D^6oj0;3
+R8
+31
+R9
+!i10b 1
+R10
+R18
+R19
+!i113 1
+R13
+R14
+Exor_2
+R15
+R4
+R5
+!i122 0
+R0
+R16
+R17
+l0
+L98 1
+VV2P2KWfUW5e1Z=NMXBDJ;0
+!s100 DUe=@W;GH8KgEREMWIRML1
+R8
+31
+R9
+!i10b 1
+R10
+R18
+R19
+!i113 1
+R13
+R14
+Aequations
+R4
+R5
+DEx4 work 5 xor_2 0 22 V2P2KWfUW5e1Z=NMXBDJ;0
+!i122 0
+l103
+L102 4
+VQUFBaT6OJ>c<=2In4b:>M1
+!s100 _g>6CYjRMmc7O[`k^N;co3
+R8
+31
+R9
+!i10b 1
+R10
+R18
+R19
+!i113 1
+R13
+R14

@@ -1,0 +1,39 @@
+|DUT
+input_vector[0] => vowel_det:add_instance.I3
+input_vector[1] => vowel_det:add_instance.I2
+input_vector[2] => vowel_det:add_instance.I1
+input_vector[3] => vowel_det:add_instance.I0
+output_vector[0] <= vowel_det:add_instance.Y
+
+
+|DUT|vowel_det:add_instance
+I3 => INVERTER:H1.A
+I2 => XNOR_2:H3.A
+I1 => AND_2:H2.A
+I0 => AND_2:H2.B
+Y <= AND_2:H4.Y
+
+
+|DUT|vowel_det:add_instance|INVERTER:H1
+A => Y.DATAIN
+Y <= A.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|vowel_det:add_instance|AND_2:H2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|vowel_det:add_instance|XNOR_2:H3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|vowel_det:add_instance|AND_2:H4
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+

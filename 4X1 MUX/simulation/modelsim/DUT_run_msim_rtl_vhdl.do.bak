@@ -1,0 +1,12 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vcom -93 -work work {E:/Third Semester/EE 214/Labs/10 August/Part-B/Gates.vhdl}
+vcom -93 -work work {E:/Third Semester/EE 214/Labs/10 August/Part-B/DUT.vhdl}
+vcom -93 -work work {E:/Third Semester/EE 214/Labs/10 August/Part-A/part_a.vhdl}
+vcom -93 -work work {E:/Third Semester/EE 214/Labs/10 August/Part-B/part_b.vhdl}
+

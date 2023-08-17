@@ -1,0 +1,134 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/Third Semester/EE 214/All lab designs/4 bit 4X1 MUX Behavioural/simulation/modelsim
+Edut
+Z1 w1632398012
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+R0
+Z4 8E:/Third Semester/EE 214/All lab designs/4 bit 4X1 MUX Behavioural/DUT.vhdl
+Z5 FE:/Third Semester/EE 214/All lab designs/4 bit 4X1 MUX Behavioural/DUT.vhdl
+l0
+L3 1
+VAZDHlZZd>FhbHZl9C4c9D2
+!s100 P0787gAdz_JF9=IR>?iV10
+Z6 OV;C;2020.1;71
+31
+Z7 !s110 1632406162
+!i10b 1
+Z8 !s108 1632406162.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|E:/Third Semester/EE 214/All lab designs/4 bit 4X1 MUX Behavioural/DUT.vhdl|
+Z10 !s107 E:/Third Semester/EE 214/All lab designs/4 bit 4X1 MUX Behavioural/DUT.vhdl|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Adutwrap
+R2
+R3
+DEx4 work 3 dut 0 22 AZDHlZZd>FhbHZl9C4c9D2
+!i122 0
+l24
+L8 44
+VNaSDXcCWidGPO=eZXKdm63
+!s100 2;E>TJBljXLhDVod6W6L20
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Emux_4x1_4bit
+Z13 w1632406072
+R2
+R3
+!i122 1
+R0
+Z14 8E:/Third Semester/EE 214/All lab designs/4 bit 4X1 MUX Behavioural/4bit_4X1_MUX.vhdl
+Z15 FE:/Third Semester/EE 214/All lab designs/4 bit 4X1 MUX Behavioural/4bit_4X1_MUX.vhdl
+l0
+L4 1
+VdXRmJ4FjdWGMKJSFQ[Xbb0
+!s100 =RjTo>>VzZT1mjd?0D=d=1
+R6
+31
+Z16 !s110 1632406163
+!i10b 1
+R8
+Z17 !s90 -reportprogress|300|-93|-work|work|E:/Third Semester/EE 214/All lab designs/4 bit 4X1 MUX Behavioural/4bit_4X1_MUX.vhdl|
+Z18 !s107 E:/Third Semester/EE 214/All lab designs/4 bit 4X1 MUX Behavioural/4bit_4X1_MUX.vhdl|
+!i113 1
+R11
+R12
+Astruct
+R2
+R3
+DEx4 work 12 mux_4x1_4bit 0 22 dXRmJ4FjdWGMKJSFQ[Xbb0
+!i122 1
+l24
+L19 22
+VFT6j0QKWA:BzhF[Z6[jRP1
+!s100 A3ab?8_:@Gjea8LWQWAL^3
+R6
+31
+R16
+!i10b 1
+R8
+R17
+R18
+!i113 1
+R11
+R12
+Etestbench
+Z19 w1628612250
+R3
+R2
+!i122 2
+R0
+Z20 8E:/Third Semester/EE 214/All lab designs/4 bit 4X1 MUX Behavioural/Testbench.vhdl
+Z21 FE:/Third Semester/EE 214/All lab designs/4 bit 4X1 MUX Behavioural/Testbench.vhdl
+l0
+L7 1
+V]iKK_Z9L:G9B:i8c]3eFH0
+!s100 bWf8kl8zb90X@P1m>V^K20
+R6
+31
+R16
+!i10b 1
+Z22 !s108 1632406163.000000
+Z23 !s90 -reportprogress|300|-93|-work|work|E:/Third Semester/EE 214/All lab designs/4 bit 4X1 MUX Behavioural/Testbench.vhdl|
+!s107 E:/Third Semester/EE 214/All lab designs/4 bit 4X1 MUX Behavioural/Testbench.vhdl|
+!i113 1
+R11
+R12
+Abehave
+R3
+R2
+DEx4 work 9 testbench 0 22 ]iKK_Z9L:G9B:i8c]3eFH0
+!i122 2
+l69
+L9 132
+VDAeg5TbGjoMOK8MN8lhS81
+!s100 f97WbR3Ia6Z7d8zn?HiX;0
+R6
+31
+R16
+!i10b 1
+R22
+R23
+Z24 !s107 E:/Third Semester/EE 214/All lab designs/4 bit 4X1 MUX Behavioural/Testbench.vhdl|
+!i113 1
+R11
+R12

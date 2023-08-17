@@ -1,0 +1,50 @@
+|DUT
+input_vector[0] => decoder_beh:add_instance.E[0]
+input_vector[1] => decoder_beh:add_instance.A[0]
+input_vector[2] => decoder_beh:add_instance.A[1]
+input_vector[3] => decoder_beh:add_instance.A[2]
+output_vector[0] <= decoder_beh:add_instance.op[0]
+output_vector[1] <= decoder_beh:add_instance.op[1]
+output_vector[2] <= decoder_beh:add_instance.op[2]
+output_vector[3] <= decoder_beh:add_instance.op[3]
+output_vector[4] <= decoder_beh:add_instance.op[4]
+output_vector[5] <= decoder_beh:add_instance.op[5]
+output_vector[6] <= decoder_beh:add_instance.op[6]
+output_vector[7] <= decoder_beh:add_instance.op[7]
+
+
+|DUT|decoder_beh:add_instance
+A[0] => op.IN1
+A[0] => op.IN1
+A[0] => op.IN1
+A[0] => op.IN1
+A[0] => op.IN1
+A[0] => op.IN1
+A[0] => op.IN1
+A[0] => op.IN1
+A[1] => op.IN0
+A[1] => op.IN0
+A[1] => op.IN0
+A[1] => op.IN0
+A[2] => op.IN1
+A[2] => op.IN1
+A[2] => op.IN1
+A[2] => op.IN1
+E[0] => op.IN1
+E[0] => op.IN1
+E[0] => op.IN1
+E[0] => op.IN1
+E[0] => op.IN1
+E[0] => op.IN1
+E[0] => op.IN1
+E[0] => op.IN1
+op[0] <= op.DB_MAX_OUTPUT_PORT_TYPE
+op[1] <= op.DB_MAX_OUTPUT_PORT_TYPE
+op[2] <= op.DB_MAX_OUTPUT_PORT_TYPE
+op[3] <= op.DB_MAX_OUTPUT_PORT_TYPE
+op[4] <= op.DB_MAX_OUTPUT_PORT_TYPE
+op[5] <= op.DB_MAX_OUTPUT_PORT_TYPE
+op[6] <= op.DB_MAX_OUTPUT_PORT_TYPE
+op[7] <= op.DB_MAX_OUTPUT_PORT_TYPE
+
+

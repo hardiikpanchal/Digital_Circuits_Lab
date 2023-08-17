@@ -1,0 +1,52 @@
+ library ieee;
+use ieee.std_logic_1164.all;
+library ieee;
+use ieee.std_logic_1164.all;
+library work;
+use work.Gates.all;
+use work.Full_Adder;
+
+entity add_sub is 
+ Port (
+  A: in std_logic_vector (3 downto 0);
+  B: in std_logic_vector (3 downto 0);
+  M: in std_logic;
+  S: out std_logic_vector(3 downto 0);
+  Cout: out std_logic
+ );
+ end entity add_sub;
+
+ architecture Behavioral of add_sub is 
+ 
+ component Full_Adder is
+ Port(
+ A:in std_logic;
+ B:in std_logic;
+ Cin:in std_logic;
+ S:out std_logic;
+ Cout:out std_logic
+ );
+ end component;
+ 
+ signal Cin: std_logic_vector(3 downto 0);
+ signal TB0, TB1, TB2, TB3 : std_logic;
+
+
+begin
+
+	x1: component XOR_2
+	port map(A=> M, B => B(0), Y => TB0);
+	x2: component XOR_2
+	port map(A=> M, B => B(1), Y => TB1);
+	x3: component XOR_2
+	port map(A=> M, B => B(2), Y => TB2);
+	x4: component XOR_2
+	port map(A=> M, B => B(3), Y => TB3);
+  
+	FA1: Full_Adder port map( A => A(0), B => TB0,  Cin => M, S => S(0), Cout => Cin(1));
+	FA2: Full_Adder port map( A => A(1), B => TB1, Cin => Cin(1), S => S(1), Cout => Cin(2));
+	FA3: Full_Adder port map( A => A(2), B => TB2, Cin => Cin(2), S => S(2), Cout => Cin(3));
+	FA4: Full_Adder port map( A => A(3), B => TB3, Cin => Cin(3), S => S(3), Cout => Cout);
+  
+  
+end Behavioral;

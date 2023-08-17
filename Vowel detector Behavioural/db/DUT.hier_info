@@ -1,0 +1,16 @@
+|DUT
+input_vector[0] => vowel_beh:add_instance.X[0]
+input_vector[1] => vowel_beh:add_instance.X[1]
+input_vector[2] => vowel_beh:add_instance.X[2]
+input_vector[3] => vowel_beh:add_instance.X[3]
+output_vector[0] <= vowel_beh:add_instance.op[0]
+
+
+|DUT|vowel_beh:add_instance
+X[0] => op.IN1
+X[1] => op.IN1
+X[2] => op.IN0
+X[3] => op.IN1
+op[0] <= op.DB_MAX_OUTPUT_PORT_TYPE
+
+

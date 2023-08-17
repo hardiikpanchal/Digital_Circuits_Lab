@@ -1,0 +1,322 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/Third Semester/EE 214/All lab designs/Sequence Generator HW/struct/simulation/modelsim
+Edff0
+Z1 w1632849616
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+R0
+Z4 8E:/Third Semester/EE 214/All lab designs/Sequence Generator HW/struct/flipflops.vhdl
+Z5 FE:/Third Semester/EE 214/All lab designs/Sequence Generator HW/struct/flipflops.vhdl
+l0
+L83 1
+VmLjzcmACIg_Ih3hKoZW;h1
+!s100 WK>Mo>CQ@Y8JhC]MZbVN]0
+Z6 OV;C;2020.1;71
+31
+Z7 !s110 1634983434
+!i10b 1
+Z8 !s108 1634983433.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|E:/Third Semester/EE 214/All lab designs/Sequence Generator HW/struct/flipflops.vhdl|
+Z10 !s107 E:/Third Semester/EE 214/All lab designs/Sequence Generator HW/struct/flipflops.vhdl|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Abehav
+R2
+R3
+DEx4 work 4 dff0 0 22 mLjzcmACIg_Ih3hKoZW;h1
+!i122 0
+l86
+L85 12
+VVCYLoiNOS@T]zURzIDo1K2
+!s100 ^?n=;:`QYCYlS7GJcdgUa1
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Edff1
+R1
+R2
+R3
+!i122 0
+R0
+R4
+R5
+l0
+L64 1
+VeMH@LCmFGCT4o:__jYLgA2
+!s100 6K3HIV9YScXGXUNlbaWHO3
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Abehav
+R2
+R3
+DEx4 work 4 dff1 0 22 eMH@LCmFGCT4o:__jYLgA2
+!i122 0
+l67
+L66 12
+VD6X9nignze7D@ifNK;zAl1
+!s100 W9A9gWH];<ezl@>YaQc@f3
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Edff2
+R1
+R2
+R3
+!i122 0
+R0
+R4
+R5
+l0
+L45 1
+Vn53mB]3@_8>zjN0XbSAS=2
+!s100 @WO<__oMF>mRO`PLGLeOW2
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Abehav
+R2
+R3
+DEx4 work 4 dff2 0 22 n53mB]3@_8>zjN0XbSAS=2
+!i122 0
+l48
+L47 12
+VDSH]Co=0_Kf<2]_XQV0n^2
+!s100 8^^PF:C75[0?cIioVO0j12
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Edff3
+R1
+R2
+R3
+!i122 0
+R0
+R4
+R5
+l0
+L27 1
+VDh[:f]dSz0Y]^4j_b9A[g2
+!s100 Ufmb:BHzBa6kV1Q[d>@g43
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Abehav
+R2
+R3
+DEx4 work 4 dff3 0 22 Dh[:f]dSz0Y]^4j_b9A[g2
+!i122 0
+l30
+L29 12
+VTRmlHBTBgBhocB[azVDQC0
+!s100 Zz>7:O]MmUG;TU6bZh<XD1
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Edut
+Z13 w1632847206
+R2
+R3
+!i122 1
+R0
+Z14 8E:/Third Semester/EE 214/All lab designs/Sequence Generator HW/struct/DUT.vhdl
+Z15 FE:/Third Semester/EE 214/All lab designs/Sequence Generator HW/struct/DUT.vhdl
+l0
+L3 1
+V1VQc@Pg2l`;D_02=4bfjH3
+!s100 mCN7?4@W>]of5zYcdAh4X3
+R6
+31
+R7
+!i10b 1
+Z16 !s108 1634983434.000000
+Z17 !s90 -reportprogress|300|-93|-work|work|E:/Third Semester/EE 214/All lab designs/Sequence Generator HW/struct/DUT.vhdl|
+Z18 !s107 E:/Third Semester/EE 214/All lab designs/Sequence Generator HW/struct/DUT.vhdl|
+!i113 1
+R11
+R12
+Adutwrap
+R2
+R3
+DEx4 work 3 dut 0 22 1VQc@Pg2l`;D_02=4bfjH3
+!i122 1
+l15
+L7 22
+VahOz5UD<0U[2>e]fBe>WV3
+!s100 i`fCiV:l3_3coUF9eN]^73
+R6
+31
+R7
+!i10b 1
+R16
+R17
+R18
+!i113 1
+R11
+R12
+Pflipflops
+R2
+R3
+!i122 0
+R1
+R0
+R4
+R5
+l0
+L3 1
+V@Sed8ik>^43PY@bkVO[8V2
+!s100 g_KERljo4zlMV;VEk3FhB3
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Esequence_generator_structural
+Z19 w1634983128
+Z20 DPx4 work 9 flipflops 0 22 @Sed8ik>^43PY@bkVO[8V2
+R2
+R3
+!i122 2
+R0
+Z21 8E:/Third Semester/EE 214/All lab designs/Sequence Generator HW/struct/seq_gen_struct.vhdl
+Z22 FE:/Third Semester/EE 214/All lab designs/Sequence Generator HW/struct/seq_gen_struct.vhdl
+l0
+L6 1
+VO5M^WP0F[O[BV_iOWBP?81
+!s100 `TYCB^?5VddWKLIIMcak_1
+R6
+31
+R7
+!i10b 1
+R16
+Z23 !s90 -reportprogress|300|-93|-work|work|E:/Third Semester/EE 214/All lab designs/Sequence Generator HW/struct/seq_gen_struct.vhdl|
+Z24 !s107 E:/Third Semester/EE 214/All lab designs/Sequence Generator HW/struct/seq_gen_struct.vhdl|
+!i113 1
+R11
+R12
+Astruct
+R20
+R2
+R3
+DEx4 work 29 sequence_generator_structural 0 22 O5M^WP0F[O[BV_iOWBP?81
+!i122 2
+l16
+L12 32
+VE<cDS7nn[lThH5]Q9a?iS3
+!s100 YV;HbEo;e]TRERDAJK1bS0
+R6
+31
+R7
+!i10b 1
+R16
+R23
+R24
+!i113 1
+R11
+R12
+Etestbench
+Z25 w1632847160
+R3
+R2
+!i122 3
+R0
+Z26 8E:/Third Semester/EE 214/All lab designs/Sequence Generator HW/struct/Testbench.vhdl
+Z27 FE:/Third Semester/EE 214/All lab designs/Sequence Generator HW/struct/Testbench.vhdl
+l0
+L7 1
+V]iKK_Z9L:G9B:i8c]3eFH0
+!s100 bWf8kl8zb90X@P1m>V^K20
+R6
+31
+Z28 !s110 1634983435
+!i10b 1
+Z29 !s108 1634983435.000000
+Z30 !s90 -reportprogress|300|-93|-work|work|E:/Third Semester/EE 214/All lab designs/Sequence Generator HW/struct/Testbench.vhdl|
+!s107 E:/Third Semester/EE 214/All lab designs/Sequence Generator HW/struct/Testbench.vhdl|
+!i113 1
+R11
+R12
+Abehave
+R3
+R2
+DEx4 work 9 testbench 0 22 ]iKK_Z9L:G9B:i8c]3eFH0
+!i122 3
+l69
+L9 132
+VJWa>gEc>eYij5ooPX2[6T3
+!s100 KPgd8a5OV31@F2CTOf?zA3
+R6
+31
+R28
+!i10b 1
+R29
+R30
+Z31 !s107 E:/Third Semester/EE 214/All lab designs/Sequence Generator HW/struct/Testbench.vhdl|
+!i113 1
+R11
+R12

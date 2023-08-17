@@ -1,0 +1,6 @@
+
+State Machine - |DUT|Serial_Adder:add_instance|y_present
+Name y_present.c1 y_present.c0 y_present.rst 
+y_present.rst 0 0 0 
+y_present.c0 0 1 1 
+y_present.c1 1 0 1 
